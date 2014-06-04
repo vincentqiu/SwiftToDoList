@@ -10,6 +10,7 @@
 		DD7BB85B193F19CF006D05AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7BB85A193F19CF006D05AB /* AppDelegate.swift */; };
 		DD7BB85D193F19CF006D05AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7BB85C193F19CF006D05AB /* Images.xcassets */; };
 		DD7BB869193F19D0006D05AB /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7BB868193F19D0006D05AB /* ToDoListTests.swift */; };
+		DD7BB873193F1AED006D05AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7BB872193F1AED006D05AB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		DD7BB862193F19D0006D05AB /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7BB867193F19D0006D05AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD7BB868193F19D0006D05AB /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		DD7BB872193F1AED006D05AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				DD7BB85A193F19CF006D05AB /* AppDelegate.swift */,
+				DD7BB872193F1AED006D05AB /* Main.storyboard */,
 				DD7BB85C193F19CF006D05AB /* Images.xcassets */,
 				DD7BB858193F19CF006D05AB /* Supporting Files */,
 			);
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7BB85D193F19CF006D05AB /* Images.xcassets in Resources */,
+				DD7BB873193F1AED006D05AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
