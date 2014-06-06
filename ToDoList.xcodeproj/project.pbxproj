@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0B23B01940537A00AE22F5 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0B23AF1940537A00AE22F5 /* CustomViewController.swift */; };
 		DD7BB85B193F19CF006D05AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7BB85A193F19CF006D05AB /* AppDelegate.swift */; };
 		DD7BB85D193F19CF006D05AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7BB85C193F19CF006D05AB /* Images.xcassets */; };
 		DD7BB869193F19D0006D05AB /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7BB868193F19D0006D05AB /* ToDoListTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD0B23AF1940537A00AE22F5 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomViewController.swift; path = ../CustomViewController.swift; sourceTree = "<group>"; };
 		DD7BB855193F19CF006D05AB /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7BB859193F19CF006D05AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD7BB85A193F19CF006D05AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		DD7BB857193F19CF006D05AB /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				DD0B23AF1940537A00AE22F5 /* CustomViewController.swift */,
 				DD7BB85A193F19CF006D05AB /* AppDelegate.swift */,
 				DD7BB872193F1AED006D05AB /* Main.storyboard */,
 				DD7BB85C193F19CF006D05AB /* Images.xcassets */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7BB85B193F19CF006D05AB /* AppDelegate.swift in Sources */,
+				DD0B23B01940537A00AE22F5 /* CustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +384,7 @@
 				DD7BB86E193F19D0006D05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD7BB86F193F19D0006D05AB /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +393,7 @@
 				DD7BB871193F19D0006D05AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
